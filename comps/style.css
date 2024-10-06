@@ -1,0 +1,61 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #00416c;
+    margin: 0;
+}
+#corpo{
+    width: 100%;
+    background-color: #fff;
+}
+#cabeca{
+    width: 100%;
+    background: linear-gradient(to bottom, #0170ba, #000000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cabcapa{
+    width: 100%;
+    height: 23vw;
+}
+#cabcontent{
+    width: 70%;
+    background-color: #000a10;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 3% 0px 3%;
+    border-radius: 10px 10px 0px 0px;
+}
+#photo{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 11px solid #000;
+    margin-top: -3vw;
+}
+#contleft{
+    width: 55%;
+    margin-left: 2%;
+}
+#contright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 30%;
+}
+a, #bio{
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+}
+#frase{
+    font-size: 16px;
+}
+#line{
+    background-color: #000a10;
+    width: 100%;
+    height: 50px;
+}
