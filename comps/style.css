@@ -139,11 +139,11 @@ a, #bio{
         height: 250px;
         margin-top: -16vw;
     }
-    #contleft, #contright{
-        width: 70%;
+    #contleft{
+        width: 90%;
     }
     #contright{
-        width: 65%;
+        width: 80%;
     }
     #contleft > h2{
         font-size: 40px;
