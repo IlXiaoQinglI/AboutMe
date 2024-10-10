@@ -83,6 +83,7 @@ a, #bio{
     justify-content: center;
     align-items: left;
     z-index: 2;
+    border-radius: 0px 0px 10px 10px;
 }
 #texto > *{
     width: 100%;
@@ -123,15 +124,29 @@ a, #bio{
 }
 @media (max-width:980px) {
     #cabcontent{
+        width: 100%;
+        padding: 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     #photo{
-        margin-top: -8vw;
+        width: 250px;
+        height: 250px;
+        margin-top: -16vw;
     }
     #contleft, #contright{
-        width: 100%;
+        width: 70%;
+    }
+    #contright{
+        width: 65%;
+    }
+    #contleft > h2{
+        font-size: 40px;
+        margin: 0 10px 0 0;
+    }
+    #contleft > p, #contright > a{
+        font-size: 17px;
     }
     #cabcapa{
         height: 45vw;
@@ -144,12 +159,12 @@ a, #bio{
         padding: 0 30px 0 30px;
     }
     #texto > h1{
-        font-size: 50px;
+        font-size: 40px;
     }
     #texto > h3{
         font-size: 25px;
     }
     #texto > p{
-        font-size: 15px;
+        font-size: 17px;
     }
 }
