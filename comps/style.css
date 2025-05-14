@@ -107,8 +107,9 @@ a, #bio{
 .parag{
     text-indent: 30px;
 }
-#compets{
+#data, #compets, #idio, #exp, #form{
     margin-left: 30px;
+    width: 96%;
 }
 #rodape{
     width: 100%;
